@@ -12,15 +12,15 @@ if (hours>=18){
         document.getElementById("greeting").innerHTML= "good evening";
         element.style.cssText = 'position: fixed;top: 0;left: 0;width: 100%;height: 100%;box-shadow: 0 0 600px rgba(30, 8, 71, 0.719) inset;';
     }
-else if(hours>13){
+else if(hours>=13){
         document.getElementById("greeting").innerHTML= "good afternoon";
         element.style.cssText = 'position: fixed;top: 0;left: 0;width: 100%;height: 100%;box-shadow: 0 0 600px rgba(126, 80, 10, 0.619) inset;';
     }
-else if(hours>5){
+else if(hours>=5){
         document.getElementById("greeting").innerHTML= "good morning";
         element.style.cssText = 'position: fixed;top: 0;left: 0;width: 100%;height: 100%;box-shadow: 0 0 600px rgba(27, 85, 136, 0.619) inset;';
     }
-else if(hours<5){
+else if(hours<=5){
         document.getElementById("greeting").innerHTML= "good night!";
         element.style.cssText = 'position: fixed;top: 0;left: 0;width: 100%;height: 100%;box-shadow: 0 0 600px rgba(4, 0, 45, 0.756) inset;';
     }
